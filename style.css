@@ -15,7 +15,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-.bottom {
+.buttom {
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,7 +27,6 @@ body {
     background: #F3F4F6;
     width: 788px;
     height: 700px;
-    flex-shrink: 0;
 }
 .right-side {
     border-radius: 0 50px 50px 0;
@@ -35,8 +35,7 @@ body {
     width: 788px;
     height: 700px;
     top: 135px;
-    left: 829px;
-    flex-shrink: 0;
+    background-color: #fff;
 
 }
 .left-bottom {
@@ -44,12 +43,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border-radius: 20px;
-    border: 1px solid #FFF;
 }
 .right-bottom {
     width: 788px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    gap: 30px;
+}
+.buttom-opasity {
+    padding: 20px;
+    border: 1px solid;
+    color: #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
 }
